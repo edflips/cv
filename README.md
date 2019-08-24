@@ -1,6 +1,6 @@
 # ed-phillips-cv
 
-> My CV as a Nuxt.js SSR app
+> My CV as a Nuxt.js SSR app, availible at [https://puncle.github.io/cv/](https://puncle.github.io/cv/)
 
 ## Build Setup
 
@@ -17,6 +17,9 @@ $ yarn start
 
 # generate static project
 $ yarn run generate
+
+# deploy to GitHub pages
+$ yarn run deploy
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
