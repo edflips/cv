@@ -1,6 +1,6 @@
 # ed-phillips-cv
 
-> Ed Phillips&#39; CV
+> My CV as a Nuxt.js SSR app
 
 ## Build Setup
 
