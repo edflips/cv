@@ -1,4 +1,4 @@
-# Ed Phillips - Curriculum vitae
+# Ed Phillips' curriculum vitae
 
 > My CV as a Nuxt.js SSR app, availible at [https://puncle.github.io/cv/](https://puncle.github.io/cv/)
 
