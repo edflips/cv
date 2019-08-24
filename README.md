@@ -1,4 +1,4 @@
-# ed-phillips-cv
+# Ed Phillips - Curriculum vitae
 
 > My CV as a Nuxt.js SSR app, availible at [https://puncle.github.io/cv/](https://puncle.github.io/cv/)
 
@@ -21,5 +21,3 @@ $ yarn run generate
 # deploy to GitHub pages
 $ yarn run deploy
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
