@@ -1,4 +1,15 @@
+// only add `router.base = '/cv/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/cv/'
+        }
+      }
+    : {}
+
 export default {
+  ...routerBase,
   mode: 'universal',
   /*
    ** Headers of the page
