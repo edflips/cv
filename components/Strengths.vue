@@ -38,7 +38,7 @@ export default {
   right: 9999rem;
   bottom: 0;
   left: 100%;
-  width: 100%;
+  width: 9999rem;
   @apply bg-gray-100;
 }
 </style>
