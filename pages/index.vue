@@ -7,18 +7,27 @@
       site-url="paperuncle.com"
     />
     <div class="container">
-      <div class="flex">
+      <div class="lg:flex items-top">
         <Introduction
-          class="flex-1 text-gray-700 bg-gray-400 px-4 py-2 m-2"
+          class="introduction lg:w-3/5 flex px-4 py-2 m-2"
           :introduction="introduction"
         />
-        <Strengths
-          class="flex-1 text-gray-700 bg-gray-400 px-4 py-2 m-2"
-          :strengths="strengths"
-        />
+        <Skills class="skills lg:w-2/5 flex px-10 py-5 m-2" :skills="skills" />
+      </div>
+      <div class="md:flex items-top">
+        <Experience class="experience md:w-3/5" :experience="experience" />
+        <div class="side md:w-2/5">
+          <Strengths
+            class="strengths flex-1 px-10 py-5 m-2"
+            :strengths="strengths"
+          />
+          <Interests
+            class="interests flex-1 px-10 py-5 m-2"
+            :interests="interests"
+          />
+        </div>
       </div>
     </div>
-    <Experience :experience="experience" />
   </div>
 </template>
 
@@ -28,14 +37,18 @@ import Identification from '~/components/Identification.vue'
 import Strengths from '~/components/Strengths.vue'
 import Experience from '~/components/Experience.vue'
 import Introduction from '~/components/Introduction.vue'
+import Interests from '~/components/Interests.vue'
+import Skills from '~/components/Skills.vue'
 
 export default {
-  // name: 'App',
+  name: 'App',
   components: {
     Identification,
     Strengths,
     Experience,
-    Introduction
+    Introduction,
+    Interests,
+    Skills
   },
   data() {
     return {
@@ -45,31 +58,4 @@ export default {
 }
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-/* body {
-  margin: 0;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  min-height: 100vh;
-  background: linear-gradient(to bottom, #ffffff 0%,#fff3f3 100%);
-}
-.slice {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.slice section {
-  flex: 0 0 50%;
-  box-sizing: border-box;
-} */
-</style>
+<style></style>

@@ -1,14 +1,16 @@
 <template>
-  <section class="identification text-center px-4 py-4">
+  <section
+    class="identification bg-pured text-white text-center px-4 py-4 mb-6"
+  >
     <div class="container">
-      <h1>{{ name }}</h1>
-      <span class="andand">&amp;&amp;</span>
-      <p>
-        <span class="bracket">(</span>
-        <span class="phone">{{ phoneNumber }}</span>
-        <span class="divider">||</span>
-        <span class="email">{{ email }}</span>
-        <span class="bracket">)</span>
+      <h1 class="text-6xl">{{ name }}</h1>
+      <span class="joiner andand hidden sm:inline-block">&amp;&amp;</span>
+      <p class="flex flex-wrap items-center justify-center leading-none">
+        <span class="joiner bracket hidden sm:inline-block">(</span>
+        <span class="phone px-2">{{ phoneNumber }}</span>
+        <span class="joiner divider hidden sm:inline-block">||</span>
+        <span class="email px-2">{{ email }}</span>
+        <span class="joiner bracket hidden sm:inline-block">)</span>
       </p>
     </div>
   </section>
@@ -39,24 +41,11 @@ export default {
 </script>
 
 <style scoped>
-section.identification {
-  background-color: #ff5545;
+.joiner {
+  @apply font-thin;
+  @apply text-gray-100;
+  @apply mx-2;
+  @apply font-mono;
+  @apply p-1;
 }
-/* 
-h1 {
-  display: inline-block;
-  font-size: 3rem;
-  margin: 0 0 0.2rem;
-}
-
-.andand {
-  display: block;
-}
-
-.divider,
-.bracket {
-  display: inline-block;
-  margin: 0 1rem;
-  font-weight: 800;
-} */
 </style>

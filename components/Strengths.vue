@@ -1,11 +1,12 @@
 <template>
   <section class="strengths">
+    <h1 class="mb-2">Core values</h1>
     <div v-for="strength in strengths" :key="strength.name" class="col">
       <h2>
         <font-awesome-icon class="icon" icon="fingerprint" size="xs" />
         {{ strength.title }}
       </h2>
-      <p>{{ strength.copy }}</p>
+      <p class="ml-8 mt-0 text-sm">{{ strength.copy }}</p>
     </div>
   </section>
 </template>
@@ -23,22 +24,21 @@ export default {
 </script>
 
 <style scoped>
-/* section {
-  padding: 1rem;
+.strengths {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  @apply bg-gray-100;
+  position: relative;
 }
-h2 {
-  display: flex;
-  align-items: center;
-  line-height: 1;
-  margin: 1rem 0 0.4rem;
+
+.strengths::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 9999rem;
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  @apply bg-gray-100;
 }
-p {
-  text-align: left;
-  margin: 0.2rem 0 0.8rem;
-}
-.icon {
-  font-size: 1rem;
-  margin: 0 0.4rem;
-  color: #ff5545;
-} */
 </style>

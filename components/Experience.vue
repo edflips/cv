@@ -1,11 +1,12 @@
 <template>
-  <section class="experience">
+  <section class="experience px-4 py-2 m-2">
+    <h1>Experience</h1>
     <Card
       v-for="exp in experience"
       :key="exp.title"
       :title="exp.title"
-      :date-range="exp.dateRange"
       :description="exp.description"
+      :tech="exp.tech"
     />
   </section>
 </template>

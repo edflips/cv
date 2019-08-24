@@ -5,11 +5,25 @@ module.exports = {
       center: true
     },
     fontFamily: {
-      display: ['Avenir', 'Helvetica', 'Arial', 'sans-serif'],
-      body: ['Avenir', 'Helvetica', 'Arial', 'sans-serif']
+      display: ['Raleway', 'Helvetica', 'Arial', 'sans-serif'],
+      mono: [
+        'Menlo',
+        'Monaco',
+        'Consolas',
+        'Liberation Mono',
+        'Courier New',
+        'monospace'
+      ]
     },
-    // font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    extend: {}
+    extend: {
+      colors: {
+        pudark: '#2E1B0C',
+        publue: '#0BCBF2',
+        pured: '#FF5545',
+        pucyan: '#15FFE4',
+        pubrown: '#734548'
+      }
+    }
   },
   variants: {}
 }

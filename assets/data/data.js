@@ -2,6 +2,7 @@ import intro from './introduction.md'
 
 const data = {
   introduction: intro,
+  skills: ['Javascript', 'SCSS', 'Vue', 'React', 'Git'],
   strengths: [
     {
       title: 'Fluid communicator',
@@ -16,40 +17,106 @@ const data = {
       copy: 'Curious for a better way, eager to help, willing to share.'
     }
   ],
+  interests: [
+    {
+      title: 'Copywriting',
+      description:
+        'I enjoy creative copywriting, occasionally taking on projects where I look for clear and concise ways to communicate ideas.'
+    },
+    {
+      title: 'Music production',
+      description:
+        'I have been interested in music production for many years and have had records commercially released.'
+    },
+    {
+      title: 'Javascript!',
+      description:
+        "Among many experiments and presonal projects, I wrote a React Native iOS app which shows the UK's Food Standards Agency scores for establishments in your immediate vicinity. Avaibible on GitHub.",
+      tech: ['Javascript', 'React', 'REST', 'GitHub']
+    },
+    {
+      title: 'Exciting kids with technology',
+      description:
+        "After giving a talk for my 7 year old son's school class on how computer code works, I was asked to return to talk to the older children about the possibilities that exist when they take a moment to understand the technology they use every day."
+    }
+  ],
   experience: [
     {
       title: 'Portsmouth Guildhall',
-      dateRange: 'September 2018 - January 2019',
       description:
-        'Accessible CMS with a date based event search system built in Vue.',
-      tech: ['Javascript', 'Vue', 'REST', 'PHP', 'SCSS', 'NGINX', 'Debian']
+        'Developed a date based event API endpoint and a Vue.js front end search system to consume it.',
+      tech: [
+        'Javascript',
+        'Vue',
+        'REST',
+        'PHP',
+        'SCSS',
+        'WordPress',
+        'Roots',
+        'Debian',
+        'GitLab'
+      ]
     },
     {
-      title: 'dontEat',
-      dateRange: 'January 2017 - April 2017',
+      title: 'MaxFocus, LogicNow',
       description:
-        "React Native iOS app which shows the UK's Food Standards Agency scores for establishments in your immediate vicinity.",
-      tech: ['Javascript', 'React Native', 'REST']
+        'Part of a development team on a Drupal project, building front end UI components.',
+      tech: ['Javascript', 'AJAX', 'PHP', 'Drupal', 'SCSS', 'GitLab']
+    },
+    {
+      title: 'Lindependante',
+      description: 'Built a Nuxt Vue.js SSR application, deployed on Netlify.',
+      tech: ['Javascript', 'Nuxt', 'Vue', 'Vuex', 'Tailwind', 'GitHub']
     },
     {
       title: 'PACE Dimensions',
-      dateRange: 'April 2017 - July 2017',
       description:
-        'Custom WordPress theme and plugins with React.js elements. I learned a lot about react components and integration into wider CMS projects. I provide ongoing hosting and maintenance support.',
-      tech: ['Javascript', 'React', 'REST', 'PHP', 'SCSS', 'NGINX', 'Debian']
+        'Part of a dev team building a custom WordPress theme and plugins; with React.js elements.',
+      tech: [
+        'Javascript',
+        'React',
+        'REST',
+        'PHP',
+        'SCSS',
+        'WordPress',
+        'NGINX',
+        'Debian',
+        'GitLab'
+      ]
+    },
+    {
+      title: 'Gold Investments',
+      description:
+        'Developed a WooCommerce theme to pull product prices from a feed and update the front end UI with AJAX calls every 30 seconds.',
+      tech: [
+        'Javascript',
+        'AJAX',
+        'PHP',
+        'WordPress',
+        'WooCommerce',
+        'SCSS',
+        'GitLab'
+      ]
     },
     {
       title: 'Learning for Action Across Health Systems',
-      dateRange: 'September 2017 - October 2017',
       description:
-        'Custom WordPress theme and associated plugins with React.js elements.',
-      tech: ['Javascript', 'PHP', 'SCSS', 'NGINX', 'Debian']
+        'A custom WordPress theme and associated plugins with extensive OpenGraph support.',
+      tech: [
+        'Javascript',
+        'OpenGraph',
+        'SCSS',
+        'WordPress',
+        'NGINX',
+        'Debian',
+        'GitLab'
+      ]
     },
     {
       title: 'NGINX hosting',
-      dateRange: 'September 2017 - October 2017',
       description:
-        "I have provided my own clients with hosting for their projects, building up a good understanding of NGINX, Let's Encrypt and Debian systems."
+        "I provide some of my own clients with hosting for their projects, building up a good understanding of NGINX, Let's Encrypt and Debian systems.",
+      tech: ['NGINX', 'Debian']
     }
   ]
 }
