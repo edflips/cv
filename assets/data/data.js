@@ -49,8 +49,8 @@ const data = {
         'Javascript',
         'Vue',
         'REST',
-        'PHP',
         'SCSS',
+        'PHP',
         'WordPress',
         'Roots',
         'Debian',
@@ -61,7 +61,7 @@ const data = {
       title: 'MaxFocus, LogicNow',
       description:
         'Part of a development team on a Drupal project, building front end UI components.',
-      tech: ['Javascript', 'AJAX', 'PHP', 'Drupal', 'SCSS', 'GitLab']
+      tech: ['Javascript', 'AJAX', 'SCSS', 'PHP', 'Drupal', 'GitLab']
     },
     {
       title: 'Lindependante',
@@ -76,8 +76,8 @@ const data = {
         'Javascript',
         'React',
         'REST',
-        'PHP',
         'SCSS',
+        'PHP',
         'WordPress',
         'NGINX',
         'Debian',
@@ -91,10 +91,10 @@ const data = {
       tech: [
         'Javascript',
         'AJAX',
+        'SCSS',
         'PHP',
         'WordPress',
         'WooCommerce',
-        'SCSS',
         'GitLab'
       ]
     },
@@ -104,8 +104,8 @@ const data = {
         'A custom WordPress theme and associated plugins with extensive OpenGraph support.',
       tech: [
         'Javascript',
-        'OpenGraph',
         'SCSS',
+        'OpenGraph',
         'WordPress',
         'NGINX',
         'Debian',
