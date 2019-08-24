@@ -1,13 +1,42 @@
 @tailwind base;
 
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
 h1 {
-  @apply text-3xl;
+  font-family: 'Courgette', cursive;
+  color: theme('colors.pured')
+}
+
+h1 {
+  @apply text-4xl;
 }
 h2 {
   @apply text-xl;
 }
 h3 {
   @apply text-lg;
+}
+
+p {
+  @apply mt-1;
+  @apply mb-3;
+}
+
+.icon {
+  @apply text-lg;
+  @apply mr-2;
+}
+
+section.strengths .icon {
+  @apply text-pured;
+}
+section.experience .icon {
+  @apply text-pured;
+}
+section.interests .icon {
+  @apply text-publue;
 }
 
 @tailwind components;
