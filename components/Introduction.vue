@@ -15,8 +15,7 @@ export default {
 </script>
 
 <style>
-/* section.intro {
-  padding: 1rem;
-  text-align: left;
-} */
+.identification h1 {
+  color: white;
+}
 </style>
