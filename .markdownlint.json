@@ -1,0 +1,8 @@
+{
+  "default": true,
+  "MD007": { "indent": 4 },
+  "no-trailing-punctuation": false,
+  "no-hard-tabs": false,
+  "first-line-heading": false,
+  "line-length": false
+}
