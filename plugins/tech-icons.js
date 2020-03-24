@@ -14,6 +14,8 @@ import css from 'simple-icons/icons/css3'
 import nuxt from 'simple-icons/icons/nuxt-dot-js'
 import html from 'simple-icons/icons/html5'
 import roots from 'simple-icons/icons/roots'
+import tailwindcss from 'simple-icons/icons/tailwindcss'
+import ember from 'simple-icons/icons/ember-dot-js'
 import linux from 'simple-icons/icons/linux'
 
 export default function Icons(tech) {
@@ -128,6 +130,20 @@ export default function Icons(tech) {
         acc.push({
           name,
           icon: roots.svg,
+        })
+        return acc
+
+      case 'Tailwind':
+        acc.push({
+          name,
+          icon: tailwindcss.svg,
+        })
+        return acc
+
+      case 'Ember':
+        acc.push({
+          name,
+          icon: ember.svg,
         })
         return acc
 

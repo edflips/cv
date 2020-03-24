@@ -2,7 +2,7 @@ import intro from './introduction.md'
 
 const data = {
   introduction: intro,
-  skills: ['Javascript', 'SCSS', 'Vue', 'React', 'Git'],
+  skills: ['Javascript', 'Vue', 'Ember', 'Tailwind', 'Git'],
   strengths: [
     {
       title: 'Fluid communicator',
@@ -37,10 +37,16 @@ const data = {
     {
       title: 'Exciting kids with technology',
       description:
-        "After giving a talk for my 7 year old son's school class on how computer code works, I was asked to return to talk to the older children about the possibilities that exist when they take a moment to understand the technology they use every day.",
+        "After giving a talk for my 8 year old son's school class on how computer code works, I was asked to return to talk to the older children about the possibilities that exist when they take a moment to understand the technology they use every day.",
     },
   ],
   experience: [
+    {
+      title: 'Phorest',
+      description:
+        'A core member of the front end engineering team, building and maintaining the modern Ember app which powers Salons all over the world.',
+      tech: ['Javascript', 'Ember', 'REST', 'GitHub'],
+    },
     {
       title: 'Portsmouth Guildhall',
       description:
