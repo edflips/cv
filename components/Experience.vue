@@ -17,14 +17,14 @@ import Card from './Card.vue'
 export default {
   name: 'Experience',
   components: {
-    Card
+    Card,
   },
   props: {
     experience: {
       type: Array,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

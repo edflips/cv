@@ -22,21 +22,21 @@ export default {
   props: {
     name: {
       type: String,
-      required: true
+      required: true,
     },
     phoneNumber: {
       type: String,
-      required: true
+      required: true,
     },
     email: {
       type: String,
-      required: true
+      required: true,
     },
     siteUrl: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

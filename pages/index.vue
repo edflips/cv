@@ -48,11 +48,11 @@ export default {
     Experience,
     Introduction,
     Interests,
-    Skills
+    Skills,
   },
   data() {
     return {
-      ...data
+      ...data,
     }
   },
   head() {
@@ -63,11 +63,11 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: "Ed Phillips' curriculum vitae"
-        }
-      ]
+          content: "Ed Phillips' curriculum vitae",
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 

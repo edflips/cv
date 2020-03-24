@@ -1,12 +1,13 @@
 @tailwind base;
 
-html, body {
+html,
+body {
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
   font-family: 'Courgette', cursive;
-  color: theme('colors.pured')
+  color: theme('colors.pured');
 }
 
 h1 {

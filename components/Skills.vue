@@ -20,14 +20,14 @@ export default {
   props: {
     skills: {
       type: Array,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     getIcons(props) {
       return Icons(props.skills)
-    }
-  }
+    },
+  },
 }
 </script>
 

@@ -17,9 +17,9 @@ export default {
   props: {
     strengths: {
       type: Array,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

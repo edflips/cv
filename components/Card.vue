@@ -32,29 +32,29 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
     description: {
       type: String,
-      required: true
+      required: true,
     },
     tech: {
       type: Array,
       default: () => [],
-      required: false
-    }
+      required: false,
+    },
   },
   data() {
     return {
-      hoverShow: false
+      hoverShow: false,
     }
   },
   computed: {
     getIcons(props) {
       return Icons(props.tech)
-    }
+    },
   },
-  methods: {}
+  methods: {},
 }
 </script>
 

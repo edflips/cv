@@ -3,8 +3,8 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/cv/'
-        }
+          base: '/cv/',
+        },
       }
     : {}
 
@@ -22,17 +22,17 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap'
-      }
-    ]
+          'https://fonts.googleapis.com/css?family=Courgette|Raleway&display=swap',
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -59,22 +59,22 @@ export default {
         imports: [
           {
             set: '@fortawesome/free-solid-svg-icons',
-            icons: ['fas']
+            icons: ['fas'],
           },
           {
             set: '@fortawesome/free-brands-svg-icons',
-            icons: ['fab']
-          }
-        ]
-      }
-    ]
+            icons: ['fab'],
+          },
+        ],
+      },
+    ],
   ],
 
   markdownit: {
     preset: 'default',
     linkify: true,
     breaks: true,
-    injected: true
+    injected: true,
     // use: [['markdown-it-container', containerName], 'markdown-it-attrs']
   },
 
@@ -84,12 +84,12 @@ export default {
   build: {
     postcss: {
       plugins: {
-        tailwindcss: './tailwind.config.js'
-      }
+        tailwindcss: './tailwind.config.js',
+      },
     },
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
+    extend(config, ctx) {},
+  },
 }

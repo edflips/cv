@@ -2,7 +2,7 @@
 module.exports = {
   theme: {
     container: {
-      center: true
+      center: true,
     },
     fontFamily: {
       display: ['Raleway', 'Helvetica', 'Arial', 'sans-serif'],
@@ -12,8 +12,8 @@ module.exports = {
         'Consolas',
         'Liberation Mono',
         'Courier New',
-        'monospace'
-      ]
+        'monospace',
+      ],
     },
     extend: {
       colors: {
@@ -21,9 +21,9 @@ module.exports = {
         publue: '#0BCBF2',
         pured: '#FF5545',
         pucyan: '#15FFE4',
-        pubrown: '#734548'
-      }
-    }
+        pubrown: '#734548',
+      },
+    },
   },
-  variants: {}
+  variants: {},
 }

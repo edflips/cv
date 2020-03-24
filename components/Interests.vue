@@ -17,14 +17,14 @@ import Card from './Card'
 export default {
   name: 'Interests',
   components: {
-    Card
+    Card,
   },
   props: {
     interests: {
       type: Array,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 

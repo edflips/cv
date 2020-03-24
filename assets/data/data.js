@@ -6,39 +6,39 @@ const data = {
   strengths: [
     {
       title: 'Fluid communicator',
-      copy: 'Listen attentively, speak honestly, treat others respectfully.'
+      copy: 'Listen attentively, speak honestly, treat others respectfully.',
     },
     {
       title: 'Conscientious human',
-      copy: 'Clear code composition, timely results, responsible team member.'
+      copy: 'Clear code composition, timely results, responsible team member.',
     },
     {
       title: 'Knowledge sharer',
-      copy: 'Curious for a better way, eager to help, willing to share.'
-    }
+      copy: 'Curious for a better way, eager to help, willing to share.',
+    },
   ],
   interests: [
     {
       title: 'Copywriting',
       description:
-        'I enjoy creative copywriting, occasionally taking on projects where I look for clear and concise ways to communicate ideas.'
+        'I enjoy creative copywriting, occasionally taking on projects where I look for clear and concise ways to communicate ideas.',
     },
     {
       title: 'Music production',
       description:
-        'I have been interested in music production for many years and have had records commercially released.'
+        'I have been interested in music production for many years and have had records commercially released.',
     },
     {
       title: 'Javascript!',
       description:
         "Among many experiments and presonal projects, I wrote a React Native iOS app which shows the UK's Food Standards Agency scores for establishments in your immediate vicinity. Avaibible on GitHub.",
-      tech: ['Javascript', 'React', 'REST', 'GitHub']
+      tech: ['Javascript', 'React', 'REST', 'GitHub'],
     },
     {
       title: 'Exciting kids with technology',
       description:
-        "After giving a talk for my 7 year old son's school class on how computer code works, I was asked to return to talk to the older children about the possibilities that exist when they take a moment to understand the technology they use every day."
-    }
+        "After giving a talk for my 7 year old son's school class on how computer code works, I was asked to return to talk to the older children about the possibilities that exist when they take a moment to understand the technology they use every day.",
+    },
   ],
   experience: [
     {
@@ -54,19 +54,19 @@ const data = {
         'WordPress',
         'Roots',
         'Debian',
-        'GitLab'
-      ]
+        'GitLab',
+      ],
     },
     {
       title: 'MaxFocus, LogicNow',
       description:
         'Part of a development team on a Drupal project, building front end UI components.',
-      tech: ['Javascript', 'AJAX', 'SCSS', 'PHP', 'Drupal', 'GitLab']
+      tech: ['Javascript', 'AJAX', 'SCSS', 'PHP', 'Drupal', 'GitLab'],
     },
     {
       title: 'Lindependante',
       description: 'Built a Nuxt Vue.js SSR application, deployed on Netlify.',
-      tech: ['Javascript', 'Nuxt', 'Vue', 'Vuex', 'Tailwind', 'GitHub']
+      tech: ['Javascript', 'Nuxt', 'Vue', 'Vuex', 'Tailwind', 'GitHub'],
     },
     {
       title: 'PACE Dimensions',
@@ -81,8 +81,8 @@ const data = {
         'WordPress',
         'NGINX',
         'Debian',
-        'GitLab'
-      ]
+        'GitLab',
+      ],
     },
     {
       title: 'Gold Investments',
@@ -95,8 +95,8 @@ const data = {
         'PHP',
         'WordPress',
         'WooCommerce',
-        'GitLab'
-      ]
+        'GitLab',
+      ],
     },
     {
       title: 'Learning for Action Across Health Systems',
@@ -109,16 +109,16 @@ const data = {
         'WordPress',
         'NGINX',
         'Debian',
-        'GitLab'
-      ]
+        'GitLab',
+      ],
     },
     {
       title: 'NGINX hosting',
       description:
         "I provide some of my own clients with hosting for their projects, building up a good understanding of NGINX, Let's Encrypt and Debian systems.",
-      tech: ['NGINX', 'Debian']
-    }
-  ]
+      tech: ['NGINX', 'Debian'],
+    },
+  ],
 }
 
 export default data

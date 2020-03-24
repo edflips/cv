@@ -22,112 +22,112 @@ export default function Icons(tech) {
       case 'Javascript':
         acc.push({
           name,
-          icon: javascript.svg
+          icon: javascript.svg,
         })
         return acc
 
       case 'Vue':
         acc.push({
           name,
-          icon: vue.svg
+          icon: vue.svg,
         })
         return acc
 
       case 'PHP':
         acc.push({
           name,
-          icon: php.svg
+          icon: php.svg,
         })
         return acc
 
       case 'SCSS':
         acc.push({
           name,
-          icon: sass.svg
+          icon: sass.svg,
         })
         return acc
 
       case 'React':
         acc.push({
           name,
-          icon: react.svg
+          icon: react.svg,
         })
         return acc
 
       case 'Node':
         acc.push({
           name,
-          icon: node.svg
+          icon: node.svg,
         })
         return acc
 
       case 'NGINX':
         acc.push({
           name,
-          icon: nginx.svg
+          icon: nginx.svg,
         })
         return acc
 
       case 'WordPress':
         acc.push({
           name,
-          icon: wordpress.svg
+          icon: wordpress.svg,
         })
         return acc
 
       case 'Drupal':
         acc.push({
           name,
-          icon: drupal.svg
+          icon: drupal.svg,
         })
         return acc
 
       case 'GitHub':
         acc.push({
           name,
-          icon: gitHub.svg
+          icon: gitHub.svg,
         })
         return acc
 
       case 'GitLab':
         acc.push({
           name,
-          icon: gitLab.svg
+          icon: gitLab.svg,
         })
         return acc
 
       case 'Git':
         acc.push({
           name,
-          icon: git.svg
+          icon: git.svg,
         })
         return acc
 
       case 'CSS':
         acc.push({
           name,
-          icon: css.svg
+          icon: css.svg,
         })
         return acc
 
       case 'Nuxt':
         acc.push({
           name,
-          icon: nuxt.svg
+          icon: nuxt.svg,
         })
         return acc
 
       case 'HTML5':
         acc.push({
           name,
-          icon: html.svg
+          icon: html.svg,
         })
         return acc
 
       case 'Roots':
         acc.push({
           name,
-          icon: roots.svg
+          icon: roots.svg,
         })
         return acc
 
@@ -135,14 +135,14 @@ export default function Icons(tech) {
       case 'Debian':
         acc.push({
           name,
-          icon: linux.svg
+          icon: linux.svg,
         })
         return acc
 
       default:
         acc.push({
           name,
-          icon: ''
+          icon: '',
         })
         return acc
     }
