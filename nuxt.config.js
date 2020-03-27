@@ -41,7 +41,6 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/tailwind.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -49,10 +48,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
+  buildModules: [
     '@nuxtjs/pwa',
     '@nuxtjs/eslint-module',
     '@nuxtjs/markdownit',
+    '@nuxtjs/tailwindcss',
     [
       'nuxt-fontawesome',
       {
@@ -67,23 +67,22 @@ export default {
     ],
   ],
 
+  tailwindcss: {
+    // purgeCSSInDev: true,
+    // exposeConfig: false
+  },
+
   markdownit: {
     preset: 'default',
     linkify: true,
     breaks: true,
     injected: true,
-    // use: [['markdown-it-container', containerName], 'markdown-it-attrs']
   },
 
   /*
    ** Build configuration
    */
   build: {
-    postcss: {
-      plugins: {
-        tailwindcss: './tailwind.config.js',
-      },
-    },
     /*
      ** You can extend webpack config here
      */
