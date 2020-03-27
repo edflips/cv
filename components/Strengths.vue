@@ -3,7 +3,7 @@
     <h1 class="mb-2">Core values</h1>
     <div v-for="strength in strengths" :key="strength.name" class="col">
       <h2>
-        <font-awesome-icon class="icon" icon="fingerprint" size="xs" />
+        <fa class="icon" size="xs" :icon="['fas', 'fingerprint']" />
         {{ strength.title }}
       </h2>
       <p class="ml-8 mt-0 text-sm">{{ strength.copy }}</p>
