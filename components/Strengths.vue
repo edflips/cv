@@ -2,8 +2,8 @@
   <section class="strengths">
     <h1 class="mb-2">Core values</h1>
     <div v-for="strength in strengths" :key="strength.name" class="col">
-      <h2>
-        <fa class="icon" :icon="['fas', 'fingerprint']" />
+      <h2 class="flex flex-row items-center justify-start">
+        <fa class="mr-2 text-pured w-6" :icon="['fas', 'fingerprint']" />
         {{ strength.title }}
       </h2>
       <p class="ml-8 mt-0 text-sm">{{ strength.copy }}</p>

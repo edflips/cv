@@ -1,7 +1,7 @@
 <template>
   <div class="card mt-2 mb-4 pt-2">
-    <h2 class="flex flex-wrap items-baseline justify-left mt-2">
-      <fa class="icon mr-2" :icon="['fas', 'star-of-life']" />
+    <h2 class="flex flex-wrap items-center justify-left mt-2">
+      <fa class="mr-2 icon w-5" :icon="['fas', 'star-of-life']" />
       {{ title }}
     </h2>
     <p>{{ description }}</p>

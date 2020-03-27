@@ -25,11 +25,6 @@ p {
   @apply mb-3;
 }
 
-.icon {
-  @apply text-lg;
-  @apply mr-2;
-}
-
 section.strengths .icon,
 section.experience .icon {
   @apply text-pured;
