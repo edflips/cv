@@ -22,6 +22,7 @@ module.exports = {
         pured: '#FF5545',
         pucyan: '#15FFE4',
         pubrown: '#734548',
+        pubrownlight: '#816668',
       },
     },
   },

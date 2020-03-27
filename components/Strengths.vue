@@ -2,8 +2,11 @@
   <section class="strengths">
     <h1 class="mb-2">Core values</h1>
     <div v-for="strength in strengths" :key="strength.name" class="col">
-      <h2 class="flex flex-row items-center justify-start">
-        <fa class="mr-2 text-pured w-6" :icon="['fas', 'fingerprint']" />
+      <h2 class="flex flex-row justify-start mt-0">
+        <fa
+          class="mr-2 mt-1 text-pubrownlight local-icon"
+          :icon="['fas', 'fingerprint']"
+        />
         {{ strength.title }}
       </h2>
       <p class="ml-8 mt-0 text-sm">{{ strength.copy }}</p>
@@ -24,6 +27,10 @@ export default {
 </script>
 
 <style scoped>
+.local-icon {
+  @apply w-6 h-6 !important;
+}
+
 .strengths {
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
