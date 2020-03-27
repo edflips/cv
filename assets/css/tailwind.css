@@ -30,12 +30,11 @@ p {
   @apply mr-2;
 }
 
-section.strengths .icon {
-  @apply text-pured;
-}
+section.strengths .icon,
 section.experience .icon {
   @apply text-pured;
 }
+
 section.interests .icon {
   @apply text-publue;
 }
