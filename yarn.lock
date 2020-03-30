@@ -1426,6 +1426,11 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/simple-icons@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-2.5.0.tgz#513753dc2416e0a9ae1767df678e1e7063e9d948"
+  integrity sha512-cHQ145criWruZJaYFt76WcarU+jICOHzyLma/VtC2mISrJnlXMYTcfH2hER5ecUSPf90/qxKYYOsIkAXlQhoHQ==
+
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
