@@ -15,6 +15,7 @@ import nuxt from 'simple-icons/icons/nuxt-dot-js'
 import html from 'simple-icons/icons/html5'
 import roots from 'simple-icons/icons/roots'
 import tailwindcss from 'simple-icons/icons/tailwindcss'
+import graphql from 'simple-icons/icons/graphql'
 import ember from 'simple-icons/icons/ember-dot-js'
 import linux from 'simple-icons/icons/linux'
 
@@ -137,6 +138,13 @@ export default function Icons(tech) {
         acc.push({
           name,
           icon: tailwindcss.svg,
+        })
+        return acc
+
+      case 'GraphQL':
+        acc.push({
+          name,
+          icon: graphql.svg,
         })
         return acc
 

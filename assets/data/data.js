@@ -42,6 +42,12 @@ const data = {
   ],
   experience: [
     {
+      title: 'Zapnito',
+      description:
+        'Front end engineer, building advanced UI and and UX in modern Ember, powering expert conversations.',
+      tech: ['Javascript', 'Ember', 'Tailwind', 'GraphQL', 'GitHub'],
+    },
+    {
       title: 'Phorest',
       description:
         'A core member of the front end engineering team, building and maintaining the modern Ember app which powers Salons all over the world.',
