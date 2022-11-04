@@ -44,7 +44,7 @@ const data = {
     {
       title: 'Zapnito',
       description:
-        'Front end engineer, building advanced UI and and UX in modern Ember, powering expert conversations.',
+        'Staff Software Engineer, leading the Front End team in developing advanced UI and and UX in modern Ember, which in turn power expert conversations.',
       tech: ['Javascript', 'Ember', 'Tailwind', 'GraphQL', 'GitHub'],
     },
     {
