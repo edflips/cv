@@ -2,7 +2,7 @@ import intro from './introduction.md'
 
 const data = {
   introduction: intro,
-  skills: ['Javascript', 'Vue', 'Ember', 'Tailwind', 'Git'],
+  skills: ['Typescript', 'Ember', 'Javascript', 'Tailwind', 'GraphQL', 'Git'],
   strengths: [
     {
       title: 'Fluid communicator',
@@ -29,15 +29,14 @@ const data = {
         'I have been interested in music production for many years and have had records commercially released.',
     },
     {
-      title: 'Javascript!',
+      title: 'Code',
       description:
-        "Among many experiments and presonal projects, I wrote a React Native iOS app which shows the UK's Food Standards Agency scores for establishments in your immediate vicinity. Avaibible on GitHub.",
-      tech: ['Javascript', 'React', 'REST', 'GitHub'],
+        "Among many experiments and personal projects, I like to mess around with JS & TS to see what's new. In the past I've written various little apps which do inane things, such as a React Native app which shows the UK's Food Standards Agency scores for establishments in your immediate vicinity.",
     },
     {
-      title: 'Exciting kids with technology',
+      title: 'Learn them kids',
       description:
-        "After giving a talk for my 8 year old son's school class on how computer code works, I was asked to return to talk to the older children about the possibilities that exist when they take a moment to understand the technology they use every day.",
+        'I enjoy teaching my 12 year old son, taking his understanding of Scratch and applying those ideas in code.',
     },
   ],
   experience: [
@@ -50,7 +49,7 @@ const data = {
     {
       title: 'Phorest',
       description:
-        'A core member of the front end engineering team, building and maintaining the modern Ember app which powers Salons all over the world.',
+        'A member of the front end engineering team, building and maintaining the modern Ember app which powers Salons all over the world.',
       tech: ['Javascript', 'Ember', 'REST', 'GitHub'],
     },
     {
@@ -83,7 +82,7 @@ const data = {
     {
       title: 'PACE Dimensions',
       description:
-        'Part of a dev team building a custom WordPress theme and plugins; with React.js elements.',
+        'Part of a dev team building a custom WordPress theme and plugins; with React elements.',
       tech: [
         'Javascript',
         'React',
@@ -99,7 +98,7 @@ const data = {
     {
       title: 'Gold Investments',
       description:
-        'Developed a WooCommerce theme to pull product prices from a feed and update the front end UI with AJAX calls every 30 seconds.',
+        'Developed a WooCommerce plugin to pull live product prices from a feed.',
       tech: [
         'Javascript',
         'AJAX',
@@ -123,12 +122,6 @@ const data = {
         'Debian',
         'GitLab',
       ],
-    },
-    {
-      title: 'NGINX hosting',
-      description:
-        "I provide some of my own clients with hosting for their projects, building up a good understanding of NGINX, Let's Encrypt and Debian systems.",
-      tech: ['NGINX', 'Debian'],
     },
   ],
 }

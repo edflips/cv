@@ -1,4 +1,5 @@
 import javascript from 'simple-icons/icons/javascript'
+import typescript from 'simple-icons/icons/typescript'
 import vue from 'simple-icons/icons/vue-dot-js'
 import php from 'simple-icons/icons/php'
 import sass from 'simple-icons/icons/sass'
@@ -26,6 +27,13 @@ export default function Icons(tech) {
         acc.push({
           name,
           icon: javascript.svg,
+        })
+        return acc
+
+      case 'Typescript':
+        acc.push({
+          name,
+          icon: typescript.svg,
         })
         return acc
 
